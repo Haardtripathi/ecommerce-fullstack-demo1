@@ -63,7 +63,7 @@ exports.postLogin = async (req, res, next) => {
 
     try {
         const user = await User.findOne({ username });
-        console.log(user)
+        // console.log(user)
         if (!user || !(await bcrypt.compare(password, user.password))) {
             return res.status(401).json({ message: "Invalid username or password." });
         }
