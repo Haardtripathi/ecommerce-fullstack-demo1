@@ -18,7 +18,7 @@ A comprehensive fullstack ecommerce solution built with modern web technologies.
 - Database: MongoDB
 - State Management: Redux
 - Styling: Tailwind CSS
-- Authentication: Session Based
+- Authentication: JWT Based
 
 ## Getting Started
 
@@ -44,7 +44,7 @@ A comprehensive fullstack ecommerce solution built with modern web technologies.
    Create a `.env` file in the root directory and add the following:
    ```
    MONGODB_URI=your_mongodb_connection_string
-   SESSION_SECRET=your_session_secret
+   JWT_SECRET=your_jwt_secret
    PORT=5000
 
    ADMIN=admin_username
@@ -88,4 +88,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Haard Tripathi - [GitHub](https://github.com/Haardtripathi)
 
-Project Link: [https://github.com/Haardtripathi/ecommerce-fullstack](https://github.com/Haardtripathi/ecommerce-fullstack)
+Project Link: [https://github.com/Haardtripathi/ecommerce-fullstack](https://github.com/Haardtripathi/ecommerce-fullstack-demo1)
